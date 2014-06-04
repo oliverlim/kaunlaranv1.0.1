@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" oncontextmenu='return false;'>
+<head>
+  <title>Kaunlaran</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta http-equiv="X-Frame-Options" content="deny" />
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/animate.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="images/favicon.ico" />
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+<div data-role="page" id="fontpage">
+  <div data-role="panel" data-position-fixed="true" data-display="overlay" data-theme="b" id="nav-panel">
+    <div style="padding-bottom:20px">
+      <h3>CONTRIBUTORS</h3>
+      <p>Editor :</p>
+      <p>Design Dirictor:  </p>
+      <p>Photographer:  </p>
+      <p>Editorial board :  </p>
+      <hr>
+      <p>Kaunlaran is a filipino for progress</p>
+      <p>40 San Miguel Avenue, Mandaluyong City 1550 Metro Manila, Philippines</p>
+    </div>
+    <ul data-role="listview">
+      <li data-icon="delete"><a href="#" data-rel="close">Close menu</a></li>
+    </ul>
+  </div>
+  <div data-role="panel" data-position-fixed="true" data-display="overlay" data-theme="b" id="nav-panel2">
+    <div style="padding-bottom:20px">
+      <h3>COVER STORIES</h3>
+      <ul class="nav">
+        <li><a href="historical.html">Historical high point</a></li>
+        <li><a href="againt.html">Againt the odds</a></li>
+        <li><a href="digging.html">Digging deeper for growth</a></li>
+      </ul>
+    </div>
+    <ul data-role="listview">
+      <li data-icon="delete"><a href="#" data-rel="close">close menu</a></li>
+    </ul>
+  </div>
+  <div data-role="panel" data-position="right" data-position-fixed="true" data-display="overlay" data-theme="b" id="nav-panel3">
+    <div style="padding-bottom:20px">
+      <h3>Menu</h3>
+      <ul class="nav">
+        <li><a href="#">Targeting growth</a></li>
+        <li><a href="#">Great expectations</a></li>
+        <li><a href="#">Enduring brands</a></li>
+      </ul>
+    </div>
+    <ul data-role="listview">
+      <li data-icon="delete"><a href="#" data-rel="close">close menu</a></li>
+    </ul>
+  </div>
+  <div data-role="header">
+   <a href="#nav-panel" class="ui-btn-right contributors">contributors</a>
+    <header>
+      <h2><a href="index.html">Kaunlaran</a></h2>
+      <i>2011 Jan-February Vol 44 Issue 1</i>
+    </header>
+  </div>
+  <div role="main" class="ui-content">
+    <h3>Great Expectations</h3>
+    <img src="images/coverphoto.jpg" alt="" />
+  </div>
+  <div data-role="footer"  data-position="fixed">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#nav-panel2"><i class="fa fa-book"></i> Stories</a></li>
+        <li><a href="#nav-panel3"><i class="fa fa-bars"></i> Menu</a></li>
+        <li><a href="pdf/2011_jan_feb.pdf" data-ajax="false"><i class="fa fa-file-pdf-o"></i> Download</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+</body>
+</html>
